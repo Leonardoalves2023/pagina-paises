@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2? family= Permanent+Marker & family= Sedgwick+Ave & display=swap');
+
+body{
+    background-color: rgb(38, 0, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+table{
+    margin: 20px;
+    border-collapse: collapse;
+    width: 500px;
+    
+}
+td{
+    border: 1px solid black;
+    padding: 3px;
+
+}
+
+@media(min-width:700px){
+    table{
+        margin: auto;
+    }
+}
+
+th{
+    border: 1px solid black;
+    padding: 5px;
+}
+
+header{
+    position: sticky;
+    top: -1px;
+    text-align: center;
+    background-image: linear-gradient(to bottom,rgb(7, 23, 255),rgb(96, 98, 189));
+    color: white;
+}
+header h1{
+    padding-top: 20px;
+}
+article h2{
+    font-family: 'Permanent Marker', cursive;
+font-family: 'Sedgwick Ave', cursive;
+text-align: center;
+
+}
+article h1{
+    font-family: 'Permanent Marker', cursive;
+font-family: 'Sedgwick Ave', cursive;
+text-align: center;
+padding-top:5% ;
+}
+article #content{
+    margin: 20px 0 20px 0;
+}
+
+header p{
+    padding-bottom: 20px;
+}
+
+footer{
+    padding: 10px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+main{
+/*     position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%); */
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px 1px 5px black ;
+    max-width: 800px;
+    margin: auto ;
+    
+}
+
+#content{
+    margin: auto;
+    text-align: center;
+    background-color: dodgerblue;
+    max-width: 100%;
+    max-height: 100%;
+    padding: 5px ;
+    
+}
+
+#content iframe{
+    width: 95%;
+    padding: 0;
+}
+
+#tabela{
+    overflow-x: auto;
+}
